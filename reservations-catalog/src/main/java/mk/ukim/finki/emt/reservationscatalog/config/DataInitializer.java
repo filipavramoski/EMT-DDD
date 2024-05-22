@@ -16,7 +16,7 @@ public class DataInitializer {
         if (customerRepository.count() == 0) {
 
             Customer customer1 =  Customer.build("Filip Avramoskii", "+123456789", "filip@example.com");
-            Customer customer2 =  Customer.build("Ana Anovska", "+987654321", "ana@example.com");
+            Customer customer2 =  Customer.build("Ana Anovskaa", "+987654321", "ana@example.com");
 
 
             customerRepository.save(customer1);
